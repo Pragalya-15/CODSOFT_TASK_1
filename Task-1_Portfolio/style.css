@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #2f2f2f;
+}
+
+.logo {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #444;
+    color: white;
+    padding: 80px 60px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-text p {
+    margin: 20px 0;
+    width: 400px;
+}
+
+.hero-text button {
+    padding: 10px 20px;
+    background: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.hero-img img {
+    width: 300px;
+    border-radius: 10px;
+}
+/* PROJECTS - BOX MODEL */
+.projects {
+    padding: 80px 50px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.project-box {
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 15px;
+    border: 2px solid #2e86de;
+    border-radius: 8px;
+    font-weight: bold;
+    background: #f4f4f4;
+    min-width: 280px;
+}
+
+/* ABOUT SECTION */
+.about {
+    display: flex;
+    align-items: center;
+    padding: 80px 60px;
+    gap: 50px;
+}
+
+.about-img img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.about-text h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+}
+/* SKILLS SECTION */
+.skills {
+    padding: 80px 50px;
+    background: #f4f4f4;
+}
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.skills-box {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 700px;
+    border-left: 5px solid #2e86de;
+}
+
+.skills-box h3 {
+    margin-bottom: 8px;
+}
+/* CONTACT SECTION */
+.contact {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+
+/* FOOTER */
+footer {
+    background: #2f2f2f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
